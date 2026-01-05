@@ -2,10 +2,12 @@
 
 This is a React-based animated landing page / portfolio-style site, built as a playground to explore CSS animations and interactive UI effects.
 
+Live demo (with personalized content): [https://jasminleinonen.onrender.com/](https://jasminleinonen.onrender.com/)
+
 ## Features
 
 - Built with React (Vite)
-- Beautiful, custom CSS animations (flowers, bees, night/day mode, etc.)
+- Custom CSS animations (flowers, bees, moon, stars night/day mode.)
 - Responsive UI
 - All personal content is separated from components for easy customization
 
@@ -39,5 +41,3 @@ To add your own information:
    - `projects`: List your own projects (title, description, links)
    - `projectsSection.heading`: Section heading for projects
 3. Save and refresh the page to see your changes.
-
-**No personal data is hardcoded in React components!**
