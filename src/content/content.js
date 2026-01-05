@@ -1,37 +1,31 @@
 export const siteContent = {
-  title: 'Demo ',
+  title: 'Jasmin Leinonen',
   hero: {
-    title: "Welcome! I'm [your name].",
+    title: "Hi! I'm Jasmin, Computer Science student @ University of Helsinki.",
   },
   contact: {
-    github: 'https://github.com/demo-user',
-    githubLabel: 'github.com/demo-user',
-    email: 'demo@email.com',
+    github: 'https://github.com/jasminlei',
+    githubLabel: 'github.com/jasminlei',
+    email: 'jasmin.leinonen@helsinki.fi',
   },
   projects: [
     {
       id: 1,
-      title: 'Demo Project 1',
-      description: 'Description for demo project 1.',
-      liveUrl: 'https://demo1.example.com',
-      githubUrl: 'https://github.com/demo-user/demo1',
+      title: 'SkinGPT',
+      description:
+        'Website where you can chat with an LLM about skincare, track your personal skin profile and routine, and explore a comprehensive product database.',
+      liveUrl: 'https://skingpt.pages.dev/',
+      githubUrl: 'https://github.com/jasminlei/skingpt',
     },
     {
       id: 2,
-      title: 'Demo Project 2',
-      description: 'Description for demo project 2.',
-      liveUrl: 'https://demo2.example.com',
-      githubUrl: 'https://github.com/demo-user/demo2',
-    },
-    {
-      id: 3,
-      title: 'Demo Project 3',
-      description: 'Description for demo project 3.',
-      liveUrl: 'https://demo3.example.com',
-      githubUrl: 'https://github.com/demo-user/demo3',
+      title: 'Froquiz',
+      description: 'JavaScript quiz hosted by a sassy frog.',
+      liveUrl: 'https://frogquiz.fly.dev/',
+      githubUrl: 'https://github.com/jasminlei/froquiz',
     },
   ],
   projectsSection: {
-    heading: 'Featured Demo Projects:',
+    heading: 'Some of my own projects:',
   },
 }
