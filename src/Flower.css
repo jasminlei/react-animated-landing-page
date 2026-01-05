@@ -1,0 +1,413 @@
+.flower1 {
+  width: 120px;
+  height: 120px;
+  animation: flower1Rotate 20s linear infinite;
+}
+
+@keyframes flower1Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flower1-petal {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  background: linear-gradient(
+    135deg,
+    rgba(231, 141, 195, 0.95) 0%,
+    rgba(158, 113, 231, 0.9) 50%,
+    rgba(136, 85, 229, 0.95) 100%
+  );
+  border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+  top: 50%;
+  left: 50%;
+  transform-origin: center 50%;
+  box-shadow: 0 0 20px rgba(200, 122, 202, 0.5),
+    inset 0 0 10px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 5px 10px rgba(220, 20, 60, 0.3));
+}
+
+.flower1-petal-1 {
+  transform: translate(-50%, -50%) rotate(0deg) translate(0, -45px);
+}
+.flower1-petal-2 {
+  transform: translate(-50%, -50%) rotate(30deg) translate(0, -45px);
+}
+.flower1-petal-3 {
+  transform: translate(-50%, -50%) rotate(60deg) translate(0, -45px);
+}
+.flower1-petal-4 {
+  transform: translate(-50%, -50%) rotate(90deg) translate(0, -45px);
+}
+.flower1-petal-5 {
+  transform: translate(-50%, -50%) rotate(120deg) translate(0, -45px);
+}
+.flower1-petal-6 {
+  transform: translate(-50%, -50%) rotate(150deg) translate(0, -45px);
+}
+.flower1-petal-7 {
+  transform: translate(-50%, -50%) rotate(180deg) translate(0, -45px);
+}
+.flower1-petal-8 {
+  transform: translate(-50%, -50%) rotate(210deg) translate(0, -45px);
+}
+.flower1-petal-9 {
+  transform: translate(-50%, -50%) rotate(240deg) translate(0, -45px);
+}
+.flower1-petal-10 {
+  transform: translate(-50%, -50%) rotate(270deg) translate(0, -45px);
+}
+.flower1-petal-11 {
+  transform: translate(-50%, -50%) rotate(300deg) translate(0, -45px);
+}
+.flower1-petal-12 {
+  transform: translate(-50%, -50%) rotate(330deg) translate(0, -45px);
+}
+
+.flower1-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle, #ffd700 0%, #ffa500 50%, #ff8c00 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+  z-index: 2;
+}
+
+.flower2 .flower1-petal {
+  background: linear-gradient(
+    135deg,
+    rgba(220, 20, 60, 0.95) 0%,
+    rgba(199, 21, 133, 0.9) 50%,
+    rgba(178, 34, 34, 0.95) 100%
+  );
+  box-shadow: 0 0 20px rgba(220, 20, 60, 0.5),
+    inset 0 0 10px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 5px 10px rgba(178, 34, 34, 0.3));
+}
+
+.flower2 .flower1-center {
+  background: radial-gradient(circle, #fff3e0 0%, #ffb347 50%, #ff6b9d 100%);
+  box-shadow: 0 0 20px rgba(255, 179, 71, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.flower2 {
+  animation: flower1Rotate 20s linear infinite;
+}
+
+.flower3 {
+  width: 130px;
+  height: 130px;
+  animation: flower3Breathe 5s ease-in-out infinite;
+}
+
+@keyframes flower3Breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+}
+
+.flower3-petal {
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  top: 50%;
+  left: 50%;
+  transform-origin: center 50%;
+}
+
+.flower3-outer-petal {
+  width: 32px;
+  height: 48px;
+  background: linear-gradient(135deg, #477eff 0%, #50c2ff 100%);
+  box-shadow: 0 0 18px rgba(71, 178, 255, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 4px 10px rgba(71, 187, 255, 0.3));
+}
+
+.flower3-outer-petal-1 {
+  transform: translate(-50%, -50%) rotate(0deg) translate(0, -50px);
+}
+.flower3-outer-petal-2 {
+  transform: translate(-50%, -50%) rotate(45deg) translate(0, -50px);
+}
+.flower3-outer-petal-3 {
+  transform: translate(-50%, -50%) rotate(90deg) translate(0, -50px);
+}
+.flower3-outer-petal-4 {
+  transform: translate(-50%, -50%) rotate(135deg) translate(0, -50px);
+}
+.flower3-outer-petal-5 {
+  transform: translate(-50%, -50%) rotate(180deg) translate(0, -50px);
+}
+.flower3-outer-petal-6 {
+  transform: translate(-50%, -50%) rotate(225deg) translate(0, -50px);
+}
+.flower3-outer-petal-7 {
+  transform: translate(-50%, -50%) rotate(270deg) translate(0, -50px);
+}
+.flower3-outer-petal-8 {
+  transform: translate(-50%, -50%) rotate(315deg) translate(0, -50px);
+}
+
+.flower3-inner-petal {
+  width: 26px;
+  height: 38px;
+  background: linear-gradient(135deg, #69bcff 0%, #1587ce 100%);
+  box-shadow: 0 0 18px rgba(107, 171, 255, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 4px 10px rgba(80, 132, 206, 0.3));
+}
+
+.flower3-inner-petal-1 {
+  transform: translate(-50%, -50%) rotate(0deg) translate(0, -35px);
+}
+.flower3-inner-petal-2 {
+  transform: translate(-50%, -50%) rotate(60deg) translate(0, -35px);
+}
+.flower3-inner-petal-3 {
+  transform: translate(-50%, -50%) rotate(120deg) translate(0, -35px);
+}
+.flower3-inner-petal-4 {
+  transform: translate(-50%, -50%) rotate(180deg) translate(0, -35px);
+}
+.flower3-inner-petal-5 {
+  transform: translate(-50%, -50%) rotate(240deg) translate(0, -35px);
+}
+.flower3-inner-petal-6 {
+  transform: translate(-50%, -50%) rotate(300deg) translate(0, -35px);
+}
+
+.flower3-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+  background: radial-gradient(circle, #ffeaa7 0%, #fdcb6e 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(253, 203, 110, 0.7),
+    inset 0 0 15px rgba(255, 255, 255, 0.5);
+  z-index: 10;
+}
+
+.flower4 .flower3-outer-petal {
+  background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);
+  box-shadow: 0 0 18px rgba(255, 165, 0, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 4px 10px rgba(255, 140, 0, 0.3));
+}
+
+.flower4 .flower3-inner-petal {
+  background: linear-gradient(135deg, #fff347 0%, #ff9a76 100%);
+  box-shadow: 0 0 18px rgba(255, 179, 71, 0.5),
+    inset 0 0 8px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0 4px 10px rgba(255, 179, 71, 0.3));
+}
+
+.flower4 {
+  width: 130px;
+  height: 130px;
+  animation: flower4Breathe 6s ease-in-out infinite;
+}
+
+@keyframes flower4Breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.09);
+  }
+}
+
+.flower4 .flower3-center {
+  background: radial-gradient(circle, #441a13 0%, #ff4500 100%);
+  box-shadow: 0 0 25px rgba(255, 99, 71, 0.7),
+    inset 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.flower5 {
+  width: 100px;
+  height: 100px;
+  animation: flower5Bloom 3s ease-in-out infinite;
+}
+
+.rose-bloom {
+  animation: flower5Bloom 3s ease-in-out infinite;
+}
+
+@keyframes flower5Bloom {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.flower5-petal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background: linear-gradient(135deg, #ffb347 0%, #ff6b9d 50%, #ff4d8a 100%);
+  box-shadow: 0 2px 8px rgba(255, 179, 71, 0.4),
+    inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.flower5-outer {
+  width: 35px;
+  height: 40px;
+  opacity: 0.9;
+}
+
+.flower5-outer-1 {
+  transform: translate(-50%, -50%) rotate(0deg) translate(0, -28px);
+}
+.flower5-outer-2 {
+  transform: translate(-50%, -50%) rotate(45deg) translate(0, -28px);
+}
+.flower5-outer-3 {
+  transform: translate(-50%, -50%) rotate(90deg) translate(0, -28px);
+}
+.flower5-outer-4 {
+  transform: translate(-50%, -50%) rotate(135deg) translate(0, -28px);
+}
+.flower5-outer-5 {
+  transform: translate(-50%, -50%) rotate(180deg) translate(0, -28px);
+}
+.flower5-outer-6 {
+  transform: translate(-50%, -50%) rotate(225deg) translate(0, -28px);
+}
+.flower5-outer-7 {
+  transform: translate(-50%, -50%) rotate(270deg) translate(0, -28px);
+}
+.flower5-outer-8 {
+  transform: translate(-50%, -50%) rotate(315deg) translate(0, -28px);
+}
+
+.flower5-mid {
+  width: 28px;
+  height: 32px;
+  background: linear-gradient(135deg, #ffb347 0%, #ff6b9d 50%, #ff4d8a 100%);
+}
+
+.flower5-mid-1 {
+  transform: translate(-50%, -50%) rotate(30deg) translate(0, -18px);
+}
+.flower5-mid-2 {
+  transform: translate(-50%, -50%) rotate(90deg) translate(0, -18px);
+}
+.flower5-mid-3 {
+  transform: translate(-50%, -50%) rotate(150deg) translate(0, -18px);
+}
+.flower5-mid-4 {
+  transform: translate(-50%, -50%) rotate(210deg) translate(0, -18px);
+}
+.flower5-mid-5 {
+  transform: translate(-50%, -50%) rotate(270deg) translate(0, -18px);
+}
+.flower5-mid-6 {
+  transform: translate(-50%, -50%) rotate(330deg) translate(0, -18px);
+}
+
+.flower5-inner {
+  width: 20px;
+  height: 24px;
+  background: linear-gradient(135deg, #ffb347 0%, #ff6b9d 50%, #ff4d8a 100%);
+  z-index: 1;
+}
+
+.flower5-inner-1 {
+  transform: translate(-50%, -50%) rotate(45deg) translate(0, -8px);
+}
+.flower5-inner-2 {
+  transform: translate(-50%, -50%) rotate(135deg) translate(0, -8px);
+}
+.flower5-inner-3 {
+  transform: translate(-50%, -50%) rotate(225deg) translate(0, -8px);
+}
+.flower5-inner-4 {
+  transform: translate(-50%, -50%) rotate(315deg) translate(0, -8px);
+}
+
+.flower5-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #fff3e0 0%, #ffb347 50%, #ff6b9d 100%);
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(255, 179, 71, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.flower6 .flower5-petal {
+  background: linear-gradient(135deg, #ad1457 0%, #d81b60 50%, #ec407a 100%);
+  box-shadow: 0 2px 8px rgba(173, 20, 87, 0.4),
+    inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.flower6 .flower5-mid {
+  background: linear-gradient(135deg, #c2185b 0%, #e91e63 50%, #f06292 100%);
+}
+
+.flower6 .flower5-inner {
+  background: linear-gradient(135deg, #d81b60 0%, #ec407a 50%, #f48fb1 100%);
+}
+
+.flower6 .flower5-center {
+  background: radial-gradient(circle, #6a0080 0%, #ad1457 100%);
+  box-shadow: 0 0 10px rgba(106, 0, 128, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* .flower_light {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1vmin;
+  height: 1vmin;
+  background-color: rgb(255, 217, 65);
+  border-radius: 50%;
+  filter: blur(0.2vmin);
+  animation: light-ans 4s linear infinite backwards;
+  pointer-events: none;
+  z-index: 10;
+} */
+
+@keyframes light-ans {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(0);
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5vmin) translateX(-2vmin);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-15vmin) translateX(2vmin);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-30vmin);
+    opacity: 0;
+    filter: blur(1vmin);
+  }
+}
